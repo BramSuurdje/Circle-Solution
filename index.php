@@ -7,11 +7,6 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <!-- jasper was here -->
-     <!-- Laat Makelele lekker de tyfus krijgen -->
-
-
-
-    <!--Tobias Was hier -->
+    <!-- hallo -->
 </body>
 </html>
