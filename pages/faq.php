@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <!-- hallo -->
-    <!-- menu wouter -->
-
-    <!-- pakketen thijs -->
+    <!-- anne maya -->
+    
 </body>
 </html>

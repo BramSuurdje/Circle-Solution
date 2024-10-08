@@ -8,8 +8,7 @@
 </head>
 <body>
     <!-- hallo -->
-    <!-- menu wouter -->
-
-    <!-- pakketen thijs -->
+    <!-- jasper -->
+    
 </body>
 </html>
