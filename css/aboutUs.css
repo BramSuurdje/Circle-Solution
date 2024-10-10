@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    background-color: #799dab;
+}
+
+.main
+{
+    display: grid;
+    margin: 0;
+    width: 100vw;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.overOns
+{
+    grid-column: 2;
+    background-color: #dcf1f9;
+    border-radius: 5%
+}
+.overOns > h1
+{
+    text-align: center;
+}
+
+
+.extraInfo
+{
+    background-color: #C7eaf8;
+    text-align: center;
+    border-radius: 5%
+}
+
+
+.nieuwsBrief
+{
+    text-align: center;
+}
