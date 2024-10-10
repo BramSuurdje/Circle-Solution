@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+    <a href="../Circle Solutions/pages/contact.php">contact</a>
     <!-- hallo -->
     <!-- menu wouter -->
 

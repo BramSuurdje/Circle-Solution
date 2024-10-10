@@ -1,0 +1,108 @@
+.contact {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+
+    @media ( min-width: 500px ) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.contactLeft {
+    background-color: #799dab;
+    padding: 5%;    
+    display: flex;
+    flex-direction: column;
+}
+
+.contactLeftTitle {
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+}
+
+.info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.infoListItem {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    max-width: 70%;
+    text-align: center;
+    margin: 14px 6px 14px 0;
+    padding: 20px 20px;
+    transition: all 0.2s;
+    border: 3px solid transparent;
+    border-radius: 16px;
+    
+    img {
+        /* max-width: 1rem; */
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        margin: auto 0 auto 12px;
+        font-size: 24px;
+    }
+}
+
+.infoListItem:hover {
+    background-color: #abc7d2;
+    border: 3px solid #DCF1F9;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+
+    .imgContainer {
+        max-width: fit-content;
+        padding: 16px;
+        border-radius: 100%;
+        margin: 0 30px;
+        transition: all 0.2s;
+
+        img {
+            width: 2rem;
+            margin: auto;
+        }
+    } 
+
+    .imgContainer:hover {
+        background-color: #DCF1F9;
+        
+        img {
+            /* this makes the svg logo black so it can be read on a lightbackground 
+            it has to be with a filter because you can't change the color of a svg with fill or color */
+            filter: invert(100%);
+        }
+    }
+}
+
+.contactRight {
+    background-color: #C7eaf8;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        .submit {
+            margin: auto 0 0 0;
+        }
+    }
+}
+
+.contactRightText{
+    margin: 0;
+    color: #799dab;
+}
