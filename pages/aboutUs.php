@@ -1,3 +1,9 @@
+<?php 
+    if($_SERVER["REQUEST_METHOD"] == "POST")
+    { 
+        $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,6 +48,22 @@
                 <input type="reset" value="Reset">
                 </div>
             </form>
+            
+            <?php
+            if($_SERVER["REQUEST_METHOD"] == "POST")
+            {
+                if(!empty($email))
+                {
+                    // Doorgaan met Controle
+                }
+                else
+                {
+                    // Echo Foutmelding 
+                    echo "Please input a valid email address .";
+                }
+            }
+        ?>
+        
         </div>
     </div>
 </body>
