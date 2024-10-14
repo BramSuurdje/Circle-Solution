@@ -16,21 +16,25 @@ body
 {
     grid-column: 2;
     background-color: #dcf1f9;
-    border-radius: 5%
+    border-radius: 10%;
+    margin: 0 auto;
+    position: absolute;
 }
 .overOns > h1
 {
     text-align: center;
 }
-
-
 .extraInfo
 {
-    background-color: #C7eaf8;
     text-align: center;
-    border-radius: 5%
+    position: relative;
+    padding-right: 50%;
 }
-
+.extraInfo > p
+{
+    background-color: #C7eaf8;
+    border-radius: 5%;
+}
 
 .nieuwsBrief
 {

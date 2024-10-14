@@ -24,14 +24,14 @@
                 intranetten. Het is een middelgroot bedrijf waar 5 mensen werken in een ZZP 
                 vennootschap constructie.
             </p>
-        </div>
-        <!-- Extra Info Block -->
-        <div class="extraInfo">
+            <!-- Extra Info Block -->
+            <div class="extraInfo">
             <p>
                 The main difference between an intranet and the internet is that the 
                 former is a closed network, and the latter is a public network. In short, the 
                 internet is for all; a company intranet is for a select group of people.
             </p>
+            </div>
         </div>
         <!-- Icons -->
         <div class="img">
