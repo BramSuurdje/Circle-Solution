@@ -15,40 +15,48 @@
 <body>
     <!-- Main Class -->
     <div class="main">
-        <!-- Over Ons Block -->
-        <div class="overOns">
-            <h1>over ons</h1>
-            <p>
-                Circle solutions is een software development bureau dat customized software 
-                ontwikkeld. Circle solutions is gespecialiseerd in het ontwikkelen van 
-                intranetten. Het is een middelgroot bedrijf waar 5 mensen werken in een ZZP 
-                vennootschap constructie.
-            </p>
-            <!-- Extra Info Block -->
-            <div class="extraInfo">
-            <p>
-                The main difference between an intranet and the internet is that the 
-                former is a closed network, and the latter is a public network. In short, the 
-                internet is for all; a company intranet is for a select group of people.
-            </p>
-            </div>
-        </div>
-        <!-- Icons -->
-        <div class="img">
-
-        </div>
-        <!-- Nieuwsbrief Stuk -->
-        <div class="nieuwsBrief">
-            <h3>Volg onze nieuwste items</h3>
-            <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="POST">
-                <label for="email">Schrijf je in voor onze nieuwsbrief</label>
-                <input type="text" name="email" id="email">
-                <div class="nieuwsBriefButtons">
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset">
+        <div class="container">
+            <!-- Over Ons Block -->
+            <div class="overOns">
+                <h1>over ons</h1>
+                <p>
+                    Circle solutions is een software development bureau dat customized software 
+                    ontwikkeld. Circle solutions is gespecialiseerd in het ontwikkelen van 
+                    intranetten. Het is een middelgroot bedrijf waar 5 mensen werken in een ZZP 
+                    vennootschap constructie.
+                </p>
+                <!-- Extra Info Block -->
+                <div class="extraInfo">
+                    <p class="extraInfoText">
+                        The main difference between an intranet and the internet is that the 
+                        former is a closed network, and the latter is a public network. In short, the 
+                        internet is for all; a company intranet is for a select group of people.
+                    </p>
                 </div>
-            </form>
-            
+                <!-- Icons -->
+                <div class="icons">
+                    <div class="aboutUsImg">
+                        <img src="../img/aboutUsPc.png" alt="PC">
+                    </div>
+                    <div class="aboutUsImg">
+                        <img src="../img/aboutUsTeam.png" alt="Team">
+                    </div>
+                    <div class="aboutUsImg">
+                        <img src="../img/aboutUsIntranet.png" alt="Intranet">
+                    </div>
+                </div>
+            </div>
+            <!-- Nieuwsbrief Stuk -->
+            <div class="nieuwsBrief">
+                <h3>Volg onze nieuwste items</h3>
+                <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="POST">
+                    <label for="email">Schrijf je in voor onze nieuwsbrief</label>
+                    <input type="text" name="email" id="email">
+                    <div class="nieuwsBriefButtons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    </div>
+                </form>
             <?php
             if($_SERVER["REQUEST_METHOD"] == "POST")
             {
@@ -63,7 +71,7 @@
                 }
             }
         ?>
-        
+            </div>
         </div>
     </div>
 </body>
