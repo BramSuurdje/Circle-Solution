@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circle-Solution - Reviews</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="../css/reviews.css" type="text/css">
 </head>
 <body>
-    <!-- hallo -->
-    <!-- tobias -->
-    
+    <div class="main">
+        <div class="starRating">
+
+        </div>
+        <div class="ratings">
+
+        </div>
+    </div>
 </body>
 </html>
