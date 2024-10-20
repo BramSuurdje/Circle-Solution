@@ -3,6 +3,11 @@
     { 
         $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
     }
+    else
+    {
+        // Doe Niks
+        ;
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,29 +53,29 @@
             </div>
             <!-- Nieuwsbrief Stuk -->
             <div class="nieuwsBrief">
-                <h3>Volg onze nieuwste items</h3>
-                <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="POST">
-                    <label for="email">Schrijf je in voor onze nieuwsbrief</label>
-                    <input type="text" name="email" id="email">
-                    <div class="nieuwsBriefButtons">
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Reset">
-                    </div>
-                </form>
-            <?php
-            if($_SERVER["REQUEST_METHOD"] == "POST")
-            {
-                if(!empty($email))
-                {
-                    // Doorgaan met Controle
-                }
-                else
-                {
-                    // Echo Foutmelding 
-                    echo "Please input a valid email address .";
-                }
-            }
-        ?>
+                <div class="nieuwsBriefContent">
+                    <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="POST">
+                        <h3>Volg onze nieuwste items</h3>
+                        <p> Schrijf je in voor onze nieuwsbrief </p>
+                        <input type="text" name="email" id="email" placeholder="you@example.com">
+                        <input type="submit" value="Inschrijven" class="nieuwsBriefButton">
+                        <?php
+                            if($_SERVER["REQUEST_METHOD"] == "POST")
+                            {
+                                if(!empty($email))
+                                {
+                                    // Echo "Email Adres opgeslagen voor nieuwsbrief" 
+                                    echo "<h4>E-mailadres opgeslagen voor nieuwsbrief.</h4>";
+                                }
+                                else
+                                {
+                                    // Echo Foutmelding 
+                                    echo "<h4>Please input a valid email address.</h4>";
+                                }
+                            }
+                        ?>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
