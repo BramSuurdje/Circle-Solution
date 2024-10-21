@@ -73,6 +73,11 @@
                                     echo "<h4>Please input a valid email address.</h4>";
                                 }
                             }
+                            else
+                            {
+                                // Doe Niks
+                                ;
+                            }
                         ?>
                     </form>
                 </div>
