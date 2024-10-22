@@ -1,0 +1,112 @@
+body
+{
+    margin: 0;
+    background-color: #799dab;
+}
+
+.main
+{
+    width: 100vw;
+    height: 100vh;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.overOns
+{
+    margin: 10% 10% 10% 20%;
+    background-color: #dcf1f9;
+    border-radius: 20px;
+    position: relative;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    padding-right: 13%;
+}
+.overOns > p
+{
+    align-self: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+.overOns > h1
+{
+    text-align: center;
+}
+
+.extraInfo
+{
+    text-align: center;
+    position: absolute;
+    left: -20%;
+    bottom: -35%;
+    right: 85%;
+}
+.extraInfo > p
+{
+    background-color: #C7eaf8;
+    border-radius: 20px;
+    margin: 5%;
+}
+.extraInfoText
+{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.icons 
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 20%;
+    bottom: -25%; 
+}
+.aboutUsImg
+{
+    padding-inline: 5%;
+}
+.aboutUsImg > img
+{
+    max-width: 170px;
+    max-height: 170px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 5%;
+}
+
+.nieuwsBrief
+{
+    position: relative;
+}
+.nieuwsBriefContent
+{
+    display: flex;
+    text-align: center;
+    align-items: end;
+    flex-direction: column;
+    padding-right: 5%;
+}
+.nieuwsBriefContent > form > input
+{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+}
+.nieuwsBriefContent > form > p
+{
+    color: white;
+}
+.nieuwsBriefButton
+{
+    background-color: #2C2C2C;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5%;
+}
