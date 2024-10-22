@@ -1,0 +1,199 @@
+.contact {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+
+    @media ( min-width: 500px ) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.contactLeft {
+    background-color: #799dab;
+    padding: 5%;    
+    display: flex;
+    flex-direction: column;
+}
+
+.contactLeftTitle {
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+}
+
+.info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.infoListItem {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    max-width: 70%;
+    text-align: center;
+    margin: 14px 6px 14px 0;
+    padding: 20px 20px;
+    transition: all 0.2s;
+    border: 3px solid transparent;
+    border-radius: 16px;
+    
+    a {
+        text-decoration: none;
+        color: white;
+        margin: auto 0 auto 12px;
+        font-size: 24px;
+    }
+}
+
+.infoListItem:hover {
+    background-color: #abc7d2;
+    border: 3px solid #DCF1F9;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+
+    .imgContainer {
+        max-width: fit-content;
+        padding: 16px;
+        border-radius: 100%;
+        margin: 0 30px;
+        transition: all 0.2s;
+
+        img {
+            width: 2rem;
+            margin: auto;
+        }
+    } 
+
+    .imgContainer:hover {
+        background-color: #DCF1F9;
+        
+        img {
+            /* this makes the svg logo black so it can be read on a lightbackground 
+            it has to be with a filter because you can't change the color of a svg with fill or color */
+            filter: invert(100%);
+        }
+    }
+}
+
+.contactRight {
+    background-color: #C7eaf8;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+
+    form {
+        display: flex;
+        max-width: fit-content;
+        flex-direction: column;
+        flex-grow: 1;
+        .submit {
+            margin: auto 0 0 0;
+            position: relative;
+            text-align: center;
+            max-width: fit-content;
+            padding:20px 60px;
+            background-color: #799DAB;
+            border: none;
+            border-radius: 16px;
+            color: white;
+            cursor: pointer;
+
+            .submitIcon {
+                position: absolute;
+                left: 10%;
+                top: 50%;
+                transform: translate(0, -50%);
+            }
+        }
+    }
+}
+
+.FormIntrestContainer {
+    margin: 0 0 20px 0;
+}
+
+.checkboxIntrestLable {
+    display: inline-block;
+    background-color: transparent;
+    padding: 12px 20px 10px 20px;
+    font-size: 16px;
+    border: 2px solid #a8a9c4;
+    border-radius: 8px;
+    transition: all 0.3s;
+    margin: 6px 6px 6px 0;
+}
+
+.checkboxIntrest { 
+    position: fixed;
+    /* removes the dot */
+    width: 0;
+}
+
+.checkboxIntrest:checked + label {
+    background-color:#799dab;
+    border-color: #799dab;
+    color: white;
+}
+
+.checkboxIntrest:hover + label {
+    background-color:#799dab;
+    border-color: #799dab;
+    color: white;
+}
+
+.contactInputField {
+    margin: 32px 0 0 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid #799dab 4px;
+    font-size: 16px;
+    padding: 6px 0;
+    color: #799dab;
+    transition: all 0.2s;
+}
+
+.contactInputField:focus {
+    color: black;
+    outline: none;
+    border-bottom: solid black 4px;
+}
+
+.contactInputField:hover {
+    color: black;
+    outline: none;
+    border-bottom: solid black 4px;
+}
+
+.contactInputField:valid {
+    color: black;
+    outline: none;
+    border-bottom: solid black 4px; 
+}
+
+.contactInputField:-webkit-autofill,
+.contactInputField:-webkit-autofill:hover, 
+.contactInputField:-webkit-autofill:focus, 
+.contactInputField:-webkit-autofill:active{
+    /* some browsers like google crome have autofill backgrounds and effects
+        that can't be changed bacause the are markedt with !importent
+        this hack removes the background and effects
+    */
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px transparent;
+}
+
+.contactFieldResponse {
+    margin: 32px 0 0 0;
+}
+
+.contactRightText{
+    margin: 0;
+    color: #799dab;
+}
