@@ -9,7 +9,7 @@
 <body>
 <?php include('header.php'); ?>  
 <div class="img">
-
+    <a href="../Circle Solutions/pages/contact.php">contact</a>
     <main>
         <section class="hero">
             <div class="hero-content">

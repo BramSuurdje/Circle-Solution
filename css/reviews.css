@@ -1,0 +1,95 @@
+body
+{
+    margin: 0;
+}
+.main
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+.starRating
+{
+    height: 50vh;
+    width: 100vw;
+    background-color: #DCF1F9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.trustPilot
+{
+    background-color:#799DAB;
+    border-radius: 1.5rem;
+    color: #FFFFFF;
+    padding: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.trustPilot > img
+{
+    max-width: 15rem;
+}
+.trustText
+{
+    max-width: 35%;
+    position: absolute;
+    bottom: 40%;
+    font-size: 1.5rem;
+    right: 5%;
+}
+.ratings
+{
+    height: 50vh;
+    width: 100vw;
+    background-color: #799DAB;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+}
+.rating1
+{
+    max-width: 20rem;
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+.rating1 > img
+{
+    max-width: 15rem;
+}
+
+.rating2
+{
+    max-width: 20rem;
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+.rating2> img
+{
+    max-width: 15rem;
+}
+
+.rating3
+{
+    max-width: 20rem;
+    background-color:#FFFFFF;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+.rating3 > img
+{
+    max-width: 15rem;
+}
