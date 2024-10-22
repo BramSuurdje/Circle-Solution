@@ -1,0 +1,75 @@
+.gridContainer
+{
+    background-color: #c7eaf8;
+}
+
+.tekst
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bigBoy
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.tekstC
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tekstD
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.footerBottom
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.tekstA
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footerTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerMenu {
+    display: flex;
+    flex-direction: row;
+}
+
+.FooterKfoto
+{
+    display: flex;
+    flex-direction: row;
+   margin: 0 0 0 auto;
+}
+
+.kleineFoto
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 15px;
+}
+
