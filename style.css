@@ -1,3 +1,18 @@
+.gridContainer
+{
+    background-color: black;
+}
+
+.Blue
+{
+    background-color: #dcf1f9;
+}
+
+.Dblue
+{
+    background-color: #799dab;
+}
+
 * {
     margin: 0;
     padding: 0;
