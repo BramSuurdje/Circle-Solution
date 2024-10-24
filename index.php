@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"]  == "POST") {
             </div>
             <div class="button">
               <form method="POST">
-                   <button type="submit">KLIkmij</button>
+                   <button type="submit" class="button">Contact opnemen</button>
               </form>
             </div>
         </div>
@@ -92,24 +92,36 @@ if ($_SERVER["REQUEST_METHOD"]  == "POST") {
     </div>
     <div class="BlokC Blue">
         <div class="bundleB Dblue">
+
             <img src="../Circle-Solution/svg/packageWorkSpace.svg" alt="">
-            <p>1-50 gebruikers €140,00 per maand</p>
-            <p>51-500 gebruikers €760,00 per maand</p>
-            <h2>$140</h2>
-            <h3>/Maandelijks</h3>
+            <p class="prijs">
+                1-50 gebruikers €140,00 per maand
+            </p>
+            <p class="prijs">
+                51-500 gebruikers €760,00 per maand
+            </p>
+           <div class="betaal">
+             <h2>$140</h2>
+             <p class="maand">/Maandelijks</p>
+           </div> 
             <div class="inbegrepen2">
-                <h4>Inbegrepen</h4>
+                <p>Inbegrepen</p>
                 <ul>
-                    <li>App management</li>
+                    <li class="ruimte">App management</li>
                 </ul>
                 <ul>
-                    <li>Communicatie and information</li>
+                    <li class="ruimte">Communicatie and information</li>
                 </ul>
                 <ul>
-                    <li>Document management</li>
+                    <li class="ruimte">Document management</li>
                 </ul>
             </div> 
             <a href="../Circle-Solution/pages/contact.php"></a>
+            <div class="button">
+              <form method="POST">
+                   <button type="submit" class="button">Contact opnemen</button>
+              </form>
+            </div>
         </div>
     </div>
 </div>
