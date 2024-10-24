@@ -3,12 +3,6 @@ body
     margin: 0;
     background-color: #799dab;
 }
-
-.main
-{
-    width: 100vw;
-    height: 100vh;
-}
 .container
 {
     display: flex;
@@ -101,6 +95,14 @@ body
 .nieuwsBriefContent > form > p
 {
     color: white;
+}
+.nieuwsBriefContent > form > h3
+{
+    font-size: 1.5em;
+}
+.nieuwsBriefContent > form > h4
+{
+    font-size: 1em;
 }
 .nieuwsBriefButton
 {
