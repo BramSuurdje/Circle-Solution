@@ -1,0 +1,81 @@
+.gridContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.Blue
+{
+    background-color: #c7eaf8;
+}
+
+.Dblue
+{
+    background-color: #779dab;
+}
+
+.Mgekozen
+{
+    padding: 20px 100px;
+    margin: 20px;
+    border-radius: 16px;
+    h3 {
+        font-size: 24px;
+    }
+}
+.BlokA
+{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   
+} 
+
+.BlokB
+{
+    display: flex; 
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+    padding: 60px 0 0 0;
+    color: white;
+}
+
+.BlokC
+{
+    display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+.bundelA
+{
+    padding: 20px 20px;
+    margin: 0 0 10px 0;
+    border-radius: 16px;
+}
+
+.prijs
+{
+    margin: 5px;
+}
+.betaal
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.maand
+{
+    margin: 0 0 0 10px;
+    align-self: flex-end;
+}
+.ruimte
+{
+  padding: 10px;
+}

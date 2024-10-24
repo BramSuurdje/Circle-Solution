@@ -21,22 +21,25 @@
 {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .tekstD
 {
     display: flex;
+    padding: 2px;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center
 
+    
 }
 
 .footerBottom
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .tekstA
@@ -50,6 +53,7 @@
 .footerTop {
     display: flex;
     flex-direction: row;
+    border-top: solid 1px #799dab;
 }
 
 .footerMenu {
@@ -66,10 +70,16 @@
 
 .kleineFoto
 {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 15px;
+    margin: 15px; */
+    width: 30px;
+    margin: 25px;
 }
 
+.Image
+{
+    width: 100%;
+}

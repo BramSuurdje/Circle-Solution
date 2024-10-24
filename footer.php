@@ -39,27 +39,30 @@
                 </div>
             </div>
             <div class="FooterKfoto">
-                <div class="kleineFoto"><img src="Circle-solution/facebookLogoWithOutBorder.svg" alt=""></div>
-                <div  class="kleineFoto"><img src="Circle-solution/Instagram.svg" alt=""></div>
-                <div  class="kleineFoto"><img src="Circle-Solution/xLogo.svg" alt=""></div>
+                <div class="kleineFoto"><img class="Image" src="../Circle-Solution/svg/facebookLogoBlack.svg" alt=""></div>
+                <div  class="kleineFoto"><img class="Image" src="../Circle-Solution/svg/Instagram.svg" alt=""></div>
+                <div  class="kleineFoto"><img class="Image" src="../Circle-Solution/svg/X_logo_2023_original.svg" alt=""></div>
             </div>
         </div>
      <div><hr></div>
 
      <div class="footerBottom">
-         <div class="tekstC"><p>2024. All rights reserved</p></div>
-         <div class="bigBoy"><img src="Circle-solution/CS-logo-dark (1).svg" alt=""></div>
+         <div class="tekstC"><p> &#9426 2024. All rights reserved</p></div>
+         <div class="bigBoy"><img class="Image" src="../Circle-Solution/svg/CS-logo-dark (1).svg" alt=""></div>
          <div class="tekstD">
-            <ul>
-                <p>Terms of service</p></div>
-            </ul>
-         <div class="tekstD">
-            <ul>
-             <p>Privacy Policy</p>
-            </ul> 
-        </div>  
+            <div class="tekstD">
+                <ul>
+                    <p>Terms of service</p></div>
+                </ul>
+            <div class="tekstD">
+                <ul>
+                <p>Privacy Policy</p>
+                </ul> 
+            </div>  
+            
+         </div>
      </div>
    
-     </div> 
+    </div> 
 </body>
 </html>

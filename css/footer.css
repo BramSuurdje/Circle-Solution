@@ -1,0 +1,17 @@
+*
+{
+    box-sizing: content-box;
+}
+
+
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.kleineFoto
+{
+    width: 100px;
+}
