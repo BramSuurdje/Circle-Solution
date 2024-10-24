@@ -6,7 +6,7 @@
     <title>Circle-Solution</title>
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <link rel="stylesheet" href="../css/contact.css" type="text/css">
-    <link rel="stylesheet" href="../footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/footer.css" type="text/css">
 </head>
 <body>
     <section class="contact">
@@ -28,13 +28,13 @@
                 </lu>
             <div class="socials">
                 <div class="imgContainer">
-                    <img src="../svg/facebookLogoWithOutBorder.svg"/>
+                    <img src="../svg/facebookLogoWithOutBorder.svg" alt="facebook"/>
                 </div>
                 <div class="imgContainer">
-                    <img src="../svg/Instagram.svg" alt="emailSVG"/>
+                    <img src="../svg/Instagram.svg" alt="instagram"/>
                 </div>
                 <div class="imgContainer">
-                    <img src="../svg/xLogo.svg" alt="emailSVG"/>
+                    <img src="../svg/xLogo.svg" alt="x"/>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                         $firstName = filter_input(INPUT_POST, "voornaam");
                         $lastName = filter_input(INPUT_POST, "achternaam");
                         $email = filter_input(INPUT_POST, "email");
-                        echo("<p class='contactFieldResponse'>Bedankt voor u bericht ".$firstName." ".$lastName."! Wij sturen u email over het geselecteerde interesse: ".$intrest." naar dit email adres: ".$email."</p>");
+                        echo("<p class='contactFieldResponse'>Bedankt voor u bericht ".$firstName." ".$lastName."! Wij sturen u een email over de geselecteerde interesse: ".$intrest." naar dit email adres: ".$email."</p>");
                     }
                 ?>
                 <button class="submit" id="submit" type="submit">
@@ -79,58 +79,36 @@
 
     <div class="gridContainer">
         <div class="footerTop">
-            <div class="footerMenu">
-                <div class="tekstA">
-                    <ul>
-                     <li>Home</li>
-                    </ul>
-                </div>
-                <div class="tekstA">
-                    <ul>
-                     <li>Diensten</li>
-                    </ul>
-                </div>
-                <div class="tekstA">  
-                    <ul>
-                     <li>Tarieven</li>
-                    </ul>
-                </div>
-                <div class="tekstA">
-                    <ul>
-                     <li>FAQ</li>
-                    </ul>
-                </div>
-                <div class="tekstA">
-                    <ul>
-                     <li>Contacten</li>
-                    </ul>
-                </div>
-            </div>
+            <ul class="footerMenu">
+                <li class="footerMenuItem">
+                    <a href="../index.php">Home</a>    
+                <li class="footerMenuItem">
+                    <a href="../pages/aboutUs.php">Over ons</a>
+                <li class="footerMenuItem">
+                    <a href="../index.php">Tarieven</a>
+                <li class="footerMenuItem">
+                    <a href="../pages/faq.php">FAQ</a>    
+                <li class="footerMenuItem">
+                    <a href="../pages/contact.php">Contacten</a>
+                </li>
+            </ul>    
             <div class="FooterKfoto">
-                <div class="kleineFoto"><img class="Image" src="../svg/facebookLogoBlack.svg" alt=""></div>
-                <div  class="kleineFoto"><img class="Image" src="../svg/Instagram.svg" alt=""></div>
+                <div class="kleineFoto"><img class="Image" src="../svg/facebookLogoWithOutBorderBlack.svg" alt=""></div>
+                <div  class="kleineFoto"><img class="Image" src="../svg/InstagramBlack.svg" alt=""></div>
                 <div  class="kleineFoto"><img class="Image" src="../svg/X_logo_2023_original.svg" alt=""></div>
             </div>
         </div>
-     <div><hr></div>
+        <div><hr></div>
 
-     <div class="footerBottom">
-         <div class="tekstC"><p> &#9426 2024. All rights reserved</p></div>
-         <div class="bigBoy"><img class="Image" src="../svg/CS-logo-dark (1).svg" alt=""></div>
-         <div class="tekstD">
+        <div class="footerBottom">
+            <div class="tekstC"><p> &#9426 2024. All rights reserved</p></div>
+            <div class="bigBoy"><img class="Image" src="../svg/CS-logo-dark (1).svg" alt=""></div>
             <div class="tekstD">
-                <ul>
-                    <p>Terms of service</p></div>
-                </ul>
+                <p>Terms of service</p>
             <div class="tekstD">
-                <ul>
                 <p>Privacy Policy</p>
-                </ul> 
             </div>  
-            
-         </div>
-     </div>
-   
-    </div> 
+        </div> 
+    </div>
 </body>
 </html>
