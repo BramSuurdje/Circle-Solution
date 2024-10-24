@@ -114,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <section class="rightColumn">
     <?php 
-    include ('faqText.php');
+    include ('../fuctions/faqText.php');
     ?>
 </section>
 
