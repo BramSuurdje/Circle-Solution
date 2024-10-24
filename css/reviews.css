@@ -56,26 +56,10 @@ body
     gap: 5rem;
     justify-content: center;
 }
-.rating1
+:is(.rating1, .rating2, .rating3)
 {
     max-width: 20rem;
     background-color: #FFFFFF;
-    padding: 1.5rem;
-    border-radius: 1.5rem;
-}
-
-.rating2
-{
-    max-width: 20rem;
-    background-color: #FFFFFF;
-    padding: 1.5rem;
-    border-radius: 1.5rem;
-}
-
-.rating3
-{
-    max-width: 20rem;
-    background-color:#FFFFFF;
     padding: 1.5rem;
     border-radius: 1.5rem;
 }
