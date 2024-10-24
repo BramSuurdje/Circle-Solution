@@ -1,15 +1,12 @@
-.gridContainer
-{
+.gridContainer {
     background-color: black;
 }
 
-.Blue
-{
+.Blue {
     background-color: #dcf1f9;
 }
 
-.Dblue
-{
+.Dblue {
     background-color: #799dab;
 }
 
@@ -20,63 +17,33 @@
 }
 
 .img {
-    font-family: Arial, sans-serif;
     min-height: 100vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url(../Circle-Solution/img/image\ 1.png) no-repeat center center fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url(../img/image\ 1.png) no-repeat center center fixed;
     background-size: cover;
 }
 
 .trust {
-    display: inline-block;
+    position: absolute;
+    right: -100px;      /* Adjust the value to control how far it is from the right */
+    top: 75%;         /* Vertically centers it relative to its container */
+    transform: translateY(-50%) scale(0.4); /* Moves it to center vertically and applies scaling */
     padding: 15px 30px;
     text-decoration: none;
-    margin-top: 20px;
     border-radius: 15px;
-    transform: scale(0.5);
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    width: 70%;
-    top: 0;
-    padding: 40px 50px;
-}
-
-.nav {
-    background-color: #DCF1F9;
-    border-radius: 25px;
-    padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.logo img {
-    width: 180px;
-    filter: brightness(0) invert(1);
 }
 
 .hero {
     display: flex;
     align-items: center;
     height: 100vh;
+    position: relative;  /* This allows absolute positioning of .trust relative to .hero */
     padding-top: 100px;
 }
 
 .hero-content {
     z-index: 2;
     padding-left: 50px;
+    position: relative;   /* Ensure that trust aligns correctly with hero content */
 }
 
 .hero h1 {
@@ -100,4 +67,35 @@ nav a {
 .nav a.active {
     color: #ffffff;
     font-weight: bold;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;               
+    left: 50%;                  
+    transform: translateX(-50%); 
+    color: black;             
+    border: none;              
+    border-radius: 50%;       
+    padding: 15px;            
+    font-size: 30px; 
+    font-weight: bold;           
+    cursor: pointer;           
+    z-index: 1000;             
+    transition: color 0.3s;     
+    background: none;           
+    transform: rotate(180deg); 
+}
+
+.scroll-to-top:hover {
+    color: #799dab;       
+}
+
+.at-top {
+    transform: translateX(-50%) rotate(180deg); /* Arrow pointing down */
+    color: white;
+}
+
+.not-at-top {
+    transform: translateX(-50%) rotate(0deg); /* Arrow pointing up */
 }
