@@ -1,16 +1,17 @@
 <?php
-session_start();
+    session_start();
 
-if ($_SERVER["REQUEST_METHOD"]  == "POST") {
+        if ($_SERVER["REQUEST_METHOD"]  == "POST") {
 
-    if (!isset($_SESSION["click"])) {
-       header("location: pages/contact.php");
-       exit();
-    } else {
-        echo "fout";
+            if (!isset($_SESSION["click"])) {
+                header("location: pages/contact.php");
+                exit();
+                } else {
+                    echo "fout";
+            }
     }
-}
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,19 +22,19 @@ if ($_SERVER["REQUEST_METHOD"]  == "POST") {
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/menu.css" type="text/css">
     <link rel="stylesheet" href="css/package.css" type="text/css">
+    <link rel="stylesheet" href="css/head.css" type="text/css">
     <link rel="stylesheet" href="css/footer.css" type="text/css">
 </head>
-<body>
 
-<!-- merge    -->
+<body>
 <?php include('header.php'); ?>  
-<div class="img">
-    <a href="../Circle Solutions/pages/contact.php">contact</a>
+
+<div class="img">   
     <main>
         <section class="hero">
             <div class="hero-content">
                 <h1>just connect <br> the dots</h1>
-                <a href="#" class="cta-button">Pakketten</a>
+                <button id="" class="cta-button" onclick="handleScroll()">Pakketten</button>
             </div>
             
             <div class="trust">
@@ -41,7 +42,37 @@ if ($_SERVER["REQUEST_METHOD"]  == "POST") {
             </div>  
         </section>
         
+        <button id="scrollToTopBtn" class="scroll-to-top at-top" onclick="handleScroll()">↑</button>
         
+        <script>
+            const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+                function handleScroll() {
+                    if (scrollToTopBtn.classList.contains('at-top','cta-button')) {
+                        window.scrollTo({
+                            top: 630,
+                            behavior: 'smooth' 
+                        });
+                    } else {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth' 
+                        });
+                    }
+                }
+
+                window.onscroll = function () {
+                    if (document.body.scrollTop === 0 && document.documentElement.scrollTop === 0) {
+                        scrollToTopBtn.classList.add('at-top');
+                        scrollToTopBtn.classList.remove('not-at-top');
+                    } else {
+                        scrollToTopBtn.classList.add('not-at-top');
+                        scrollToTopBtn.classList.remove('at-top');
+                    }
+                };
+
+        </script>
+
     </main>
     </div>
 

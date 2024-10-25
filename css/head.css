@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px 50px;
+    background-color: transparent;
+    transition: background-color 0.4s ease;
+}
+
+header.scrolled {
+    background-color: rgb(72, 84, 102);
+    z-index: 10;
+}
+
+.nav {
+    background-color: #DCF1F9;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;    /* Allows for left adjustment */
+    left: -90px;           /* Move it 20px to the left */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 180px;
+    filter: brightness(0) invert(1);
+}
