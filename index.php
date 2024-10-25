@@ -95,20 +95,15 @@
              <h2>$180</h2>
               <p class="maand">/Maandelijks</p>
          </div>
-            <div class="inbegrepen1">
+            <div class="inbegrepen">
                 <p>Inbegrepen</p>
                 <ul>
-                    <li class="ruimte">Internal communications</li>
+                    <li class="ruimte"><img src="../Circle-Solution/svg/CheckCircle.svg" alt=""><p> Internal communications</p></li>
+                    <li class="ruimte"><img src="../Circle-Solution/svg/CheckCircle.svg" alt=""><p> Connect and engage</p></li>
+                    <li class="ruimte"><img src="../Circle-Solution/svg/CheckCircle.svg" alt=""><p> Knowledge management</p></li>
+                    <li class="ruimte"><img src="../Circle-Solution/svg/CheckCircle.svg" alt=""><p> Analyze and optimize</p></li>
                 </ul>
-                <ul>
-                    <li class="ruimte">Connect and engage</li>
-                </ul>
-                <ul>
-                    <li class="ruimte">Knowledge management</li>
-                </ul>
-                <ul>
-                    <li class="ruimte">Analyze and optimize</li>
-                </ul>
+               
             </div>
             <div class="button">
               <form method="POST">
@@ -137,17 +132,15 @@
              <h2>$140</h2>
              <p class="maand">/Maandelijks</p>
            </div> 
-            <div class="inbegrepen2">
+            <div class="inbegrepen">
                 <p>Inbegrepen</p>
-                <ul>
-                    <li class="ruimte">App management</li>
-                </ul>
-                <ul>
-                    <li class="ruimte">Communicatie and information</li>
-                </ul>
-                <ul>
-                    <li class="ruimte">Document management</li>
-                </ul>
+                <ul class="inbegrepenItems">
+                 <li class="ruimte"> <img src="../Circle-Solution/svg/CheckCircle.svg" alt=""> <p>App management</p> </li>
+                 <li class="ruimte"> <img src="../Circle-Solution/svg/CheckCircle.svg" alt=""> <p>Communicatie and information</p></li>
+                 <li class="ruimte"> <img src="../Circle-Solution/svg/CheckCircle.svg" alt=""> <p>Document management</p></li>
+                </ul> 
+                
+               
             </div> 
             <a href="../Circle-Solution/pages/contact.php"></a>
             <div class="button">
