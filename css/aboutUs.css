@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body
 {
     margin: 0;
@@ -29,6 +35,7 @@ body
 .overOns > h1
 {
     text-align: center;
+    padding-top: 45px;
 }
 
 .extraInfo
@@ -77,6 +84,7 @@ body
 .nieuwsBrief
 {
     position: relative;
+    padding-bottom: 55px;
 }
 .nieuwsBriefContent
 {

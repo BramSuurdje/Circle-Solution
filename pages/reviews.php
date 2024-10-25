@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <link rel="stylesheet" href="../css/reviews.css" type="text/css">
     <link rel="stylesheet" href="../css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/headReview.css" type="text/css">
 </head>
+
+<?php include('../header.php'); ?>  
+
 <body>
     <div class="main">
         <!-- Star Rating Block -->

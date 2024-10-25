@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <link rel="stylesheet" href="../css/contact.css" type="text/css">
     <link rel="stylesheet" href="../css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/headContact.css" type="text/css">
 </head>
+
+<?php include('../header.php'); ?>  
+
 <body>
     <section class="contact">
         <div class="contactLeft">

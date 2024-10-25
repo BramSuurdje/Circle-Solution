@@ -182,7 +182,7 @@
 .contactInputField:-webkit-autofill:focus, 
 .contactInputField:-webkit-autofill:active{
     /* some browsers like google crome have autofill backgrounds and effects
-        that can't be changed bacause the are markedt with !importent
+        that can't be changed bacause the are marked with !important
         this hack removes the background and effects
     */
     transition: background-color 5000s ease-in-out 0s;
