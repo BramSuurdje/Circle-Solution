@@ -53,7 +53,7 @@
                     <label for="communication" class="checkboxIntrestLable">Communication</label>
 
                     <input class="checkboxIntrest" type="radio" id="information" name="interest" value="Information">
-                    <label for="information" class="checkboxIntrestLable">information</label>
+                    <label for="information" class="checkboxIntrestLable">Information</label>
 
                     <input class="checkboxIntrest" type="radio" id="document-management" name="interest" value="Document management">
                     <label for="document-management" class="checkboxIntrestLable">Document management</label>
