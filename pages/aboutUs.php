@@ -18,7 +18,11 @@
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <link rel="stylesheet" href="../css/aboutUs.css" type="text/css">
     <link rel="stylesheet" href="../css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/head.css" type="text/css">
 </head>
+
+    <?php include('../header.php'); ?>  
+
 <body>
     <!-- Main Class -->
     <div class="main">
