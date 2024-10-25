@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/menu.css" type="text/css">
     <link rel="stylesheet" href="css/package.css" type="text/css">
     <link rel="stylesheet" href="css/head.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
 </head>
 
 <body>
@@ -75,7 +76,7 @@
     </main>
     </div>
 
-    <div class="gridContainer">
+    <div class="gridContainerTop">
      <div class="BlokA Blue">
             <div class="Mgekozen Dblue">
                 <h3>Meest gekozen</h3>
@@ -110,7 +111,7 @@
             </div>
             <div class="button">
               <form method="POST">
-                   <button type="submit">KLIkmij</button>
+                   <button type="submit" class="button">Contact opnemen</button>
               </form>
             </div>
         </div>
@@ -123,26 +124,72 @@
     </div>
     <div class="BlokC Blue">
         <div class="bundleB Dblue">
+
             <img src="../Circle-Solution/svg/packageWorkSpace.svg" alt="">
-            <p>1-50 gebruikers €140,00 per maand</p>
-            <p>51-500 gebruikers €760,00 per maand</p>
-            <h2>$140</h2>
-            <h3>/Maandelijks</h3>
+            <p class="prijs">
+                1-50 gebruikers €140,00 per maand
+            </p>
+            <p class="prijs">
+                51-500 gebruikers €760,00 per maand
+            </p>
+           <div class="betaal">
+             <h2>$140</h2>
+             <p class="maand">/Maandelijks</p>
+           </div> 
             <div class="inbegrepen2">
-                <h4>Inbegrepen</h4>
+                <p>Inbegrepen</p>
                 <ul>
-                    <li>App management</li>
+                    <li class="ruimte">App management</li>
                 </ul>
                 <ul>
-                    <li>Communicatie and information</li>
+                    <li class="ruimte">Communicatie and information</li>
                 </ul>
                 <ul>
-                    <li>Document management</li>
+                    <li class="ruimte">Document management</li>
                 </ul>
             </div> 
             <a href="../Circle-Solution/pages/contact.php"></a>
+            <div class="button">
+              <form method="POST">
+                   <button type="submit" class="button">Contact opnemen</button>
+              </form>
+            </div>
         </div>
     </div>
+</div>
+
+<div class="gridContainer">
+    <div class="footerTop">
+        <ul class="footerMenu">
+            <li class="footerMenuItem">
+                <a href="index.php">Home</a>    
+            <li class="footerMenuItem">
+                <a href="pages/aboutUs.php">Over ons</a>
+            <li class="footerMenuItem">
+                <a href="index.php">Tarieven</a>
+            <li class="footerMenuItem">
+                <a href="pages/faq.php">FAQ</a>    
+            <li class="footerMenuItem">
+                <a href="pages/contact.php">Contacten</a>
+            </li>
+        </ul>    
+        <div class="FooterKfoto">
+            <div class="kleineFoto"><img class="Image" src="svg/facebookLogoWithOutBorderBlack.svg" alt=""></div>
+            <div  class="kleineFoto"><img class="Image" src="svg/InstagramBlack.svg" alt=""></div>
+            <div  class="kleineFoto"><img class="Image" src="svg/X_logo_2023_original.svg" alt=""></div>
+        </div>
+    </div>
+    <div><hr></div>
+
+    <div class="footerBottom">
+        <div class="tekstC"><p> &#9426 2024. All rights reserved</p></div>
+        <div class="bigBoy"><img class="Image" src="svg/CS-logo-dark (1).svg" alt=""></div>
+        <div class="tekstD">
+            <p>Terms of service</p>
+        <div class="tekstD">
+            <p>Privacy Policy</p>
+        </div>  
+    </div> 
 </div>
 
 </body>

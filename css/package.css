@@ -1,4 +1,4 @@
-.gridContainer
+.gridContainerTop
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -60,6 +60,13 @@
     border-radius: 16px;
 }
 
+.bundleB
+{
+    padding: 20px 20px;
+    margin: 0 0 10px 0;
+    border-radius: 16px;
+}
+
 .prijs
 {
     margin: 5px;
@@ -78,4 +85,18 @@
 .ruimte
 {
   padding: 10px;
+}
+
+.button
+{
+    background-color: #c7eaf8;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s;
+    
 }
