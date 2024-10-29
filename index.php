@@ -152,39 +152,7 @@
     </div>
 </div>
 
-<div class="gridContainer">
-    <div class="footerTop">
-        <ul class="footerMenu">
-            <li class="footerMenuItem">
-                <a href="index.php">Home</a>    
-            <li class="footerMenuItem">
-                <a href="pages/aboutUs.php">Over ons</a>
-            <li class="footerMenuItem">
-                <a href="index.php">Tarieven</a>
-            <li class="footerMenuItem">
-                <a href="pages/faq.php">FAQ</a>    
-            <li class="footerMenuItem">
-                <a href="pages/contact.php">Contacten</a>
-            </li>
-        </ul>    
-        <div class="FooterKfoto">
-            <div class="kleineFoto"><img class="Image" src="svg/facebookLogoWithOutBorderBlack.svg" alt=""></div>
-            <div  class="kleineFoto"><img class="Image" src="svg/InstagramBlack.svg" alt=""></div>
-            <div  class="kleineFoto"><img class="Image" src="svg/X_logo_2023_original.svg" alt=""></div>
-        </div>
-    </div>
-    <div><hr></div>
-
-    <div class="footerBottom">
-        <div class="tekstC"><p> &#9426 2024. All rights reserved</p></div>
-        <div class="bigBoy"><img class="Image" src="svg/CS-logo-dark (1).svg" alt=""></div>
-        <div class="tekstD">
-            <p>Terms of service</p>
-        <div class="tekstD">
-            <p>Privacy Policy</p>
-        </div>  
-    </div> 
-</div>
+<?php include('footer.php'); ?>  
 
 </body>
 </html>
