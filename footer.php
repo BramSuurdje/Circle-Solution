@@ -31,7 +31,7 @@
      <div><hr></div>
 
      <div class="footerBottom">
-            <div class="tekstC"><p> &#9426 2024. Alle rechten voorbehouden</p></div>
+            <div class="tekstC"><p> &#169 2024. Alle rechten voorbehouden</p></div>
             <div class="bigBoy"><img class="Image" src="../svg/CS-logo-dark (1).svg" alt=""></div>
             <div class="tekstD">
                 <p>Servicevoorwaarden</p>
