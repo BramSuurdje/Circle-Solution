@@ -39,9 +39,9 @@
                 <!-- Extra Info Block -->
                 <div class="extraInfo">
                     <p class="extraInfoText">
-                        The main difference between an intranet and the internet is that the 
-                        former is a closed network, and the latter is a public network. In short, the 
-                        internet is for all; a company intranet is for a select group of people.
+                        Het belangrijkste verschil tussen een intranet en het internet is dat 
+                        het eerste een gesloten netwerk is, en het laatste een openbaar netwerk. Kortom, het 
+                        internet is voor iedereen; een bedrijfsintranet is voor een selecte groep mensen.
                     </p>
                 </div>
                 <!-- Icons -->
@@ -76,7 +76,7 @@
                                 else
                                 {
                                     // Echo Foutmelding 
-                                    echo "<h4>Please input a valid email address.</h4>";
+                                    echo "<h4 style='color:red'>Foutmelding: E-mailadres is niet ingevuld.</h4>";
                                 }
                             }
                             else
@@ -115,12 +115,12 @@
         <div><hr></div>
 
         <div class="footerBottom">
-            <div class="tekstC"><p> &#9426 2024. All rights reserved</p></div>
+            <div class="tekstC"><p> &#9426 2024. Alle rechten voorbehouden</p></div>
             <div class="bigBoy"><img class="Image" src="../svg/CS-logo-dark (1).svg" alt=""></div>
             <div class="tekstD">
-                <p>Terms of service</p>
+                <p>Servicevoorwaarden</p>
             <div class="tekstD">
-                <p>Privacy Policy</p>
+                <p>Privacybeleid</p>
             </div>  
         </div> 
     </div>
