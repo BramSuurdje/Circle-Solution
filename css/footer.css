@@ -81,3 +81,9 @@
 {
     width: 100%;
 }
+
+.footerMenuItem {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}

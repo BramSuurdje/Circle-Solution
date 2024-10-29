@@ -13,28 +13,12 @@
         <div class="footerTop">
             <div class="footerMenu">
                 <div class="tekstA">
-                    <ul>
-                     <li>Home</li>
-                    </ul>
-                </div>
-                <div class="tekstA">
-                    <ul>
-                     <li>Diensten</li>
-                    </ul>
-                </div>
-                <div class="tekstA">  
-                    <ul>
-                     <li>Tarieven</li>
-                    </ul>
-                </div>
-                <div class="tekstA">
-                    <ul>
-                     <li>FAQ</li>
-                    </ul>
-                </div>
-                <div class="tekstA">
-                    <ul>
-                     <li>Contacten</li>
+                    <ul class="footerMenuItem">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Diensten</a></li>
+                        <li><a href="#">Tarieven</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contacten</a></li>
                     </ul>
                 </div>
             </div>
@@ -47,20 +31,14 @@
      <div><hr></div>
 
      <div class="footerBottom">
-         <div class="tekstC"><p> &#9426 2024. All rights reserved</p></div>
-         <div class="bigBoy"><img class="Image" src="../Circle-Solution/svg/CS-logo-dark (1).svg" alt=""></div>
-         <div class="tekstD">
+            <div class="tekstC"><p> &#9426 2024. Alle rechten voorbehouden</p></div>
+            <div class="bigBoy"><img class="Image" src="../svg/CS-logo-dark (1).svg" alt=""></div>
             <div class="tekstD">
-                <ul>
-                    <p>Terms of service</p></div>
-                </ul>
+                <p>Servicevoorwaarden</p>
             <div class="tekstD">
-                <ul>
-                <p>Privacy Policy</p>
-                </ul> 
+                <p>Privacybeleid</p>
             </div>  
-            
-         </div>
+        </div> 
      </div>
    
     </div> 
