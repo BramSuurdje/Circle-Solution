@@ -8,8 +8,7 @@
 </head>
 
 <body>
-    
-   <div class="gridContainer">
+    <div class="gridContainer">
         <div class="footerTop">
             <div class="footerMenu">
                 <div class="tekstA">
@@ -28,9 +27,9 @@
                 <div  class="kleineFoto"><img class="Image" src="../Circle-Solution/svg/X_logo_2023_original.svg" alt=""></div>
             </div>
         </div>
-     <div><hr></div>
+    <div><hr></div>
 
-     <div class="footerBottom">
+    <div class="footerBottom">
             <div class="tekstC"><p> &#169 2024. Alle rechten voorbehouden</p></div>
             <div class="bigBoy"><img class="Image" src="../svg/CS-logo-dark (1).svg" alt=""></div>
             <div class="tekstD">
@@ -39,8 +38,8 @@
                 <p>Privacybeleid</p>
             </div>  
         </div> 
-     </div>
-   
+    </div>
+    
     </div> 
 </body>
 </html>
